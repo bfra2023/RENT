@@ -4,6 +4,7 @@ import { Container, Row, Col } from "reactstrap";
 import { Link, NavLink } from "react-router-dom";
 import "../../styles/header.css";
 
+
 const navLinks = [
   {
     path: "/home",
@@ -15,7 +16,7 @@ const navLinks = [
   },
   {
     path: "/cars",
-    display: "Cars",
+    display: "Rent",
   },
 
   {
@@ -71,7 +72,7 @@ const Header = () => {
               <div className="logo">
                 <h1>
                   <Link to="/home" className=" d-flex align-items-center gap-2">
-                    <i class="ri-car-line"></i>
+                  <i class="ri-home-heart-line"></i>
                     <span>
                      Rent a House
                     </span>
@@ -112,7 +113,7 @@ const Header = () => {
             >
               <button className="header__btn btn ">
                 <Link to="/contact">
-                  <i class="ri-phone-line"></i> Log In
+                  <i class="ri-user-line"></i> Log In
                 </Link>
               </button>
             </Col>

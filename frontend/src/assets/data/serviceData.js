@@ -1,7 +1,7 @@
 const serviceData = [
   {
     id: 1,
-    title: "City Transfer",
+    title: "Our Office",
     icon: "ri-map-pin-2-line",
     desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
   },
@@ -15,8 +15,8 @@ const serviceData = [
 
   {
     id: 3,
-    title: "Unlimited Miles Car Rental",
-    icon: "ri-roadster-line",
+    title: "Real Time Assistance",
+    icon: "ri-question-line",
     desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
   },
 
