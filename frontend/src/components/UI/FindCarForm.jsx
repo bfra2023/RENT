@@ -3,6 +3,7 @@ import "../../styles/find-car-form.css";
 import "../../styles/find-car-form.css";
 import { Form, FormGroup } from "reactstrap";
 
+
 const FindCarForm = () => {
   return (
     <Form className="form">
@@ -35,7 +36,8 @@ const FindCarForm = () => {
         </FormGroup>
 
         <FormGroup className="form__group">
-          <button className="btn find__car-btn">Find Home</button>
+          <button className="btn find__car-btn">
+            Find Home</button>
         </FormGroup>
       </div>
     </Form>
