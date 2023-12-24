@@ -1,24 +1,26 @@
 // import all images from assets/images directory
-import img01 from "../all-images/cars-img/nissan-offer.png";
-import img02 from "../all-images/cars-img/offer-toyota.png";
-import img03 from "../all-images/cars-img/bmw-offer.png";
-import img04 from "../all-images/cars-img/nissan-offer.png";
-import img05 from "../all-images/cars-img/offer-toyota.png";
-import img06 from "../all-images/cars-img/mercedes-offer.png";
-import img07 from "../all-images/cars-img/toyota-offer-2.png";
-import img08 from "../all-images/cars-img/mercedes-offer.png";
+import shtepia1 from "../all-images/slider-img/shtepia1.jpg";
+import shtepia2 from "../all-images/slider-img/shtepia2.jpg";
+import shtepia3 from "../all-images/slider-img/shtepia3.jpg";
+import shtepia4 from "../all-images/slider-img/shtepia4.jpg";
+// import shtepia5 from "../all-images/slider-img/shtepia5.jpg";
+import shtepia6 from "../all-images/slider-img/shtepia6.jpg";
+import shtepia7 from "../all-images/slider-img/shtepia7.jpg";
+import shtepia8 from "../all-images/slider-img/shtepia8.jpg";
+import shtepia9 from "../all-images/slider-img/shtepia9.jpg";
+import shtepia10 from "../all-images/slider-img/shtepia10.jpg";
 
 const carData = [
   {
     id: 1,
-    brand: "Tesla",
+    brand: "Ville",
     rating: 112,
-    carName: "Tesla Malibu",
-    imgUrl: img01,
+    carName: "Crystal Cascade Villa",
+    imgUrl: shtepia1,
     model: "Model 3",
-    price: 50,
+    price: 550,
     speed: "20kmpl",
-    gps: "GPS Navigation",
+    gps: "Prishtine",
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
@@ -27,14 +29,14 @@ const carData = [
 
   {
     id: 2,
-    brand: "Toyota",
+    brand: "Wallich Residence",
     rating: 102,
-    carName: "Toyota Aventador",
-    imgUrl: img02,
+    carName: "Penthouse",
+    imgUrl: shtepia2,
     model: "Model-2022",
-    price: 50,
+    price: 1100,
     speed: "20kmpl",
-    gps: "GPS Navigation",
+    gps: "Prizren",
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
@@ -43,14 +45,14 @@ const carData = [
 
   {
     id: 3,
-    brand: "BMW",
+    brand: "Villa",
     rating: 132,
-    carName: "BMW X3",
-    imgUrl: img03,
+    carName: "Villa Bella Vista",
+    imgUrl: shtepia3,
     model: "Model-2022",
-    price: 65,
+    price: 780,
     speed: "20kmpl",
-    gps: "GPS Navigation",
+    gps: "Gjakove",
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
@@ -59,14 +61,14 @@ const carData = [
 
   {
     id: 4,
-    brand: "Nissan",
+    brand: "Villa",
     rating: 102,
-    carName: "Nissan Mercielago",
-    imgUrl: img04,
+    carName: "Villa de Luna",
+    imgUrl: shtepia4,
     model: "Model-2022",
-    price: 70,
+    price: 480,
     speed: "20kmpl",
-    gps: "GPS Navigation",
+    gps: "Gjakove",
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
@@ -75,14 +77,14 @@ const carData = [
 
   {
     id: 5,
-    brand: "Ferrari",
+    brand: "Villa",
     rating: 94,
-    carName: "Ferrari Camry",
-    imgUrl: img05,
+    carName: "Villa de Marco",
+    imgUrl: shtepia9,
     model: "Model-2022",
-    price: 45,
+    price: 350,
     speed: "20kmpl",
-    gps: "GPS Navigation",
+    gps: "Ferizaj",
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
@@ -91,14 +93,14 @@ const carData = [
 
   {
     id: 6,
-    brand: "Mercedes",
+    brand: "Villa",
     rating: 119,
-    carName: "Mercedes Benz XC90",
-    imgUrl: img06,
+    carName: "Villa de Luxory",
+    imgUrl: shtepia6,
     model: "Model-2022",
-    price: 85,
+    price: 730,
     speed: "20kmpl",
-    gps: "GPS Navigation",
+    gps: "Pejë",
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
@@ -107,14 +109,14 @@ const carData = [
 
   {
     id: 7,
-    brand: "Audi",
+    brand: "Villa",
     rating: 82,
-    carName: "Audi Fiesta",
-    imgUrl: img07,
+    carName: "Villa Montana",
+    imgUrl: shtepia7,
     model: "Model 3",
-    price: 50,
+    price: 900,
     speed: "20kmpl",
-    gps: "GPS Navigation",
+    gps: "Prishtine",
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
@@ -123,14 +125,29 @@ const carData = [
 
   {
     id: 8,
-    brand: "Colorado",
+    brand: "Villa",
     rating: 52,
-    carName: "Rolls Royce Colorado",
-    imgUrl: img08,
+    carName: "Villa la Node",
+    imgUrl: shtepia8,
     model: "Model 3",
-    price: 50,
+    price: 810,
     speed: "20kmpl",
-    gps: "GPS Navigation",
+    gps: "Prishtine",
+    seatType: "Heated seats",
+    automatic: "Automatic",
+    description:
+      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+  },
+  {
+    id: 9,
+    brand: "Villa",
+    rating: 52,
+    carName: "Villa la Tuna",
+    imgUrl: shtepia10,
+    model: "Model 3",
+    price: 810,
+    speed: "20kmpl",
+    gps: "Mitrovica",
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
