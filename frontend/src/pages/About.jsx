@@ -4,11 +4,12 @@ import CommonSection from "../components/UI/CommonSection";
 import Helmet from "../components/Helmet/Helmet";
 import AboutSection from "../components/UI/AboutSection";
 import { Container, Row, Col } from "reactstrap";
-import BecomeDriverSection from "../components/UI/BecomeDriverSection";
+import RentSection from "../components/UI/RentSection";
 
 import driveImg from "../assets/all-images/concept.jpg";
 import OurMembers from "../components/UI/OurMembers";
 import "../styles/about.css";
+
 
 const About = () => {
   return (
@@ -61,7 +62,7 @@ const About = () => {
         </Container>
       </section>
 
-      <BecomeDriverSection />
+      <RentSection />
 
       <section>
         <Container>

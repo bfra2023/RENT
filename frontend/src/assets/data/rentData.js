@@ -10,12 +10,12 @@ import shtepia8 from "../all-images/slider-img/shtepia8.jpg";
 import shtepia9 from "../all-images/slider-img/shtepia9.jpg";
 import shtepia10 from "../all-images/slider-img/shtepia10.jpg";
 
-const carData = [
+const rentData = [
   {
     id: 1,
     brand: "Ville",
     rating: 112,
-    carName: "Crystal Cascade Villa",
+    rentName: "Crystal Cascade Villa",
     imgUrl: shtepia1,
     model: "Model 3",
     price: 550,
@@ -31,7 +31,7 @@ const carData = [
     id: 2,
     brand: "Wallich Residence",
     rating: 102,
-    carName: "Penthouse",
+    rentName: "Penthouse",
     imgUrl: shtepia2,
     model: "Model-2022",
     price: 1100,
@@ -47,7 +47,7 @@ const carData = [
     id: 3,
     brand: "Villa",
     rating: 132,
-    carName: "Villa Bella Vista",
+    rentName: "Villa Bella Vista",
     imgUrl: shtepia3,
     model: "Model-2022",
     price: 780,
@@ -63,7 +63,7 @@ const carData = [
     id: 4,
     brand: "Villa",
     rating: 102,
-    carName: "Villa de Luna",
+    rentName: "Villa de Luna",
     imgUrl: shtepia4,
     model: "Model-2022",
     price: 480,
@@ -79,7 +79,7 @@ const carData = [
     id: 5,
     brand: "Villa",
     rating: 94,
-    carName: "Villa de Marco",
+    rentName: "Villa de Marco",
     imgUrl: shtepia9,
     model: "Model-2022",
     price: 350,
@@ -95,7 +95,7 @@ const carData = [
     id: 6,
     brand: "Villa",
     rating: 119,
-    carName: "Villa de Luxory",
+    rentName: "Villa de Luxory",
     imgUrl: shtepia6,
     model: "Model-2022",
     price: 730,
@@ -111,7 +111,7 @@ const carData = [
     id: 7,
     brand: "Villa",
     rating: 82,
-    carName: "Villa Montana",
+    rentName: "Villa Montana",
     imgUrl: shtepia7,
     model: "Model 3",
     price: 900,
@@ -127,7 +127,7 @@ const carData = [
     id: 8,
     brand: "Villa",
     rating: 52,
-    carName: "Villa la Node",
+    rentName: "Villa la Node",
     imgUrl: shtepia8,
     model: "Model 3",
     price: 810,
@@ -142,7 +142,7 @@ const carData = [
     id: 9,
     brand: "Villa",
     rating: 52,
-    carName: "Villa la Tuna",
+    rentName: "Villa la Tuna",
     imgUrl: shtepia10,
     model: "Model 3",
     price: 810,
@@ -155,4 +155,4 @@ const carData = [
   },
 ];
 
-export default carData;
+export default rentData;

@@ -1,20 +1,20 @@
 import React from "react";
-import "../../styles/become-driver.css";
+import "../../styles/become-rent.css";
 import { Container, Row, Col } from "reactstrap";
 
 import driverImg from "../../assets/all-images/cars-img/interiori.jpg";
 
-const BecomeDriverSection = () => {
+const RentSection = () => {
   return (
-    <section className="become__driver">
+    <section className="become__rent">
       <Container>
         <Row>
-          <Col lg="6" md="6" sm="12" className="become__driver-img">
+          <Col lg="6" md="6" sm="12" className="become__rent-img">
             {/* <img src={driverImg} alt="" className="w-100" /> */}
           </Col>
 
           <Col lg="6" md="6" sm="12">
-            <h2 className="section__title become__driver-title">
+            <h2 className="section__title become__rent-title">
               Do You Want Live on your dream place? So Don't Be Late
             </h2>
 
@@ -28,4 +28,4 @@ const BecomeDriverSection = () => {
   );
 };
 
-export default BecomeDriverSection;
+export default RentSection;

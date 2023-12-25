@@ -1,4 +1,4 @@
-.find__cars-left {
+.find__rent-left {
   background: 
     url("../assets/all-images/shtepiavogel.jpg");
   background-position: center;
@@ -7,7 +7,7 @@
   padding: 110px 35px;
 }
 
-.find__cars-left h2 {
+.find__rent-left h2 {
   
   font-weight: 600;
   font-size: 2rem;
@@ -73,7 +73,7 @@
   color: #7c8a97;
 }
 
-.find__car-btn {
+.find__rent-btn {
   background: #228dde !important;
   color: #fff !important;
   padding: 8px 15px;
@@ -83,11 +83,11 @@
 }
 
 @media only screen and (max-width: 992px) {
-  .find__cars-left {
+  .find__rent-left {
     padding: 65px 22px;
   }
 
-  .find__cars-left h2 {
+  .find__rent-left h2 {
     font-size: 1.5rem;
   }
 
@@ -107,7 +107,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .find__cars-left {
+  .find__rent-left {
     padding-top: 20px;
     padding-bottom: 0;
     background: #fff;
@@ -140,7 +140,7 @@
     font-size: 0.8rem;
   }
 
-  .find__cars-left h2 {
+  .find__rent-left h2 {
     font-size: 1rem;
   }
 

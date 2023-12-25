@@ -4,12 +4,12 @@ import HeroSlider from "../components/UI/HeroSlider";
 import Helmet from "../components/Helmet/Helmet";
 
 import { Container, Row, Col } from "reactstrap";
-import FindCarForm from "../components/UI/FindCarForm";
+import RentForm from "../components/UI/RentForm";
 import AboutSection from "../components/UI/AboutSection";
 import ServicesList from "../components/UI/ServicesList";
-import carData from "../assets/data/carData";
-import CarItem from "../components/UI/CarItem";
-import BecomeDriverSection from "../components/UI/BecomeDriverSection";
+import rentData from "../assets/data/rentData";
+import RentItem from "../components/UI/RentItem";
+import RentSection from "../components/UI/RentSection";
 import Testimonial from "../components/UI/Testimonial";
 
 import BlogList from "../components/UI/BlogList";
@@ -25,13 +25,13 @@ const Home = () => {
           <Container>
             <Row className="form__row">
               <Col lg="4" md="4">
-                <div className="find__cars-left">
+                <div className="find__rent-left">
                   <h2></h2>
                 </div>
               </Col>
 
               <Col lg="8" md="8" sm="12">
-                <FindCarForm />
+                <RentForm />
               </Col>
             </Row>
           </Container>
@@ -61,14 +61,14 @@ const Home = () => {
               <h2 className="section__title">Hot Offers</h2>
             </Col>
 
-            {carData.slice(0, 6).map((item) => (
-              <CarItem item={item} key={item.id} />
+            {rentData.slice(0, 6).map((item) => (
+              <RentItem item={item} key={item.id} />
             ))}
           </Row>
         </Container>
       </section>
       {/* =========== become a driver section ============ */}
-      <BecomeDriverSection />
+      <RentSection />
 
       {/* =========== testimonial section =========== */}
       <section>
