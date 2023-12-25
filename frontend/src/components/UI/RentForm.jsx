@@ -3,8 +3,9 @@ import "../../styles/rent-form.css";
 // import "../../styles/rent-form.css";
 import { Form, FormGroup } from "reactstrap";
 
+
 const RentForm = () => {
-  return (
+
     <Form className="form">
       <div className=" d-flex align-items-center justify-content-between flex-wrap">
         <FormGroup className="form__group">
@@ -39,7 +40,7 @@ const RentForm = () => {
         </FormGroup>
       </div>
     </Form>
-  );
+  
 };
 
 export default RentForm;

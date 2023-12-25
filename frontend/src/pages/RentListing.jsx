@@ -5,9 +5,11 @@ import CommonSection from "../components/UI/CommonSection";
 import RentItem from "../components/UI/RentItem";
 import rentData from "../assets/data/rentData";
 
+
 const RentListing = () => {
   return (
-    <Helmet title="Cars">
+
+    <Helmet title="Rent">
       <CommonSection title="Rent Listing" />
 
       <section>

@@ -4,12 +4,17 @@ import { Link } from "react-router-dom";
 import "../../styles/rent-item.css";
 
 const RentItem = (props) => {
+
   const { imgUrl, model, rentName, automatic, speed, price } = props.item;
+
+ 
 
   return (
     <Col lg="4" md="4" sm="6" className="mb-5">
       <div className="rent__item">
+
         <div className="rent__img">
+
           <img src={imgUrl} alt="" className="w-100" />
         </div>
 
