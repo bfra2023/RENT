@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-
 import rentData from "../assets/data/rentData";
 import { Container, Row, Col } from "reactstrap";
 import Helmet from "../components/Helmet/Helmet";

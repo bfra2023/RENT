@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/become-rent.css";
 import { Container, Row, Col } from "reactstrap";
 
-import driverImg from "../../assets/all-images/cars-img/interiori.jpg";
+// import driverImg from "../../assets/all-images/rent-img/interiori.jpg";
 
 const RentSection = () => {
   return (
@@ -10,17 +10,12 @@ const RentSection = () => {
       <Container>
         <Row>
           <Col lg="6" md="6" sm="12" className="become__rent-img">
-            {/* <img src={driverImg} alt="" className="w-100" /> */}
           </Col>
 
           <Col lg="6" md="6" sm="12">
             <h2 className="section__title become__rent-title">
               Do You Want Live on your dream place? So Don't Be Late
             </h2>
-
-            {/* <button className="btn become__driver-btn mt-4">
-              Become a Driver
-            </button> */}
           </Col>
         </Row>
       </Container>

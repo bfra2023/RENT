@@ -2,6 +2,8 @@
   border: 1px solid #7c8a9736;
   padding: 20px;
   border-radius: 5px;
+  height: 100%;
+  overflow: hidden;
 }
 
 .rent__item-info span i {

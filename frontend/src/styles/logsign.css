@@ -1,0 +1,10 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url("../assets/all-images/foto.jpg");
+    background-size:cover
+    
+    
+}

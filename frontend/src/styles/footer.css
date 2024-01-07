@@ -1,21 +1,21 @@
 .footer {
-  background: #000d6b;
+  background: transparent;
   padding-top: 50px;
   padding-bottom: 15px;
 }
 
 .footer__logo i {
-  color: #fff;
+  color: #228dde;
   font-weight: 400;
 }
 
 .footer__logo span {
-  color: #fff;
+  color: #228dde;
   font-weight: 500;
 }
 
 .footer__logo-content {
-  color: rgba(255, 255, 255, 0.715);
+  color: #228dde;
   margin-top: 15px;
   line-height: 30px;
 }
@@ -26,7 +26,7 @@
 }
 
 .quick__link a {
-  color: rgba(255, 255, 255, 0.715);
+  color: #228dde;
   text-decoration: none;
   font-weight: 300;
   transition: 0.3s;
@@ -37,11 +37,11 @@
 }
 
 .footer__link-title {
-  color: #fff;
+  color: #228dde;
 }
 
 .office__info {
-  color: rgba(255, 255, 255, 0.715);
+  color: #228dde;
   font-weight: 300;
 }
 
@@ -57,17 +57,18 @@
 
 .newsletter input {
   background: transparent;
-  color: #fff;
+  color: #228dde;
   border: none;
   outline: none;
 }
 
 .newsletter span i {
-  color: #fff;
+  color: #228dde;
 }
 
 .footer__bottom {
-  border-top: 1px solid #7c8a972f;
+  border-top: 1px solid;
+  color: #228dde;
 }
 
 @media only screen and (max-width: 768px) {
@@ -84,10 +85,15 @@
   .footer__link-title {
     font-size: 1rem;
     margin-top: 15px;
+    color: #228dde;
   }
 
   .footer__bottom p {
     font-size: 0.7rem;
+  }
+
+  .section__description {
+    color:#228dde;
   }
 
   

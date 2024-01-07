@@ -1,8 +1,8 @@
-import React, { useRef } from "react";
-
+import React, { useRef, useState } from "react";
 import { Container, Row, Col } from "reactstrap";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import "../../styles/header.css";
+import  "../../pages/Login";
 
 
 const navLinks = [
@@ -27,43 +27,36 @@ const navLinks = [
     path: "/contact",
     display: "Contact",
   },
+
+  {
+    path: "/login",
+    display: "Login",
+  }
 ];
 
-const Header = () => {
+  const Header = () => {
   const menuRef = useRef(null);
+  const [searchValue, setSearchValue] = useState("");
+  const navigate = useNavigate();
 
   const toggleMenu = () => menuRef.current.classList.toggle("menu__active");
 
+ const handleSearch = () => {
+    const trimmedSearchValue = searchValue.trim().toLowerCase();
+
+    if (trimmedSearchValue === "rent") {
+      navigate("/rent");  // Use navigate instead of history.push
+    } else {
+      // Handle other search cases if needed
+      // ...
+    }
+  };
+
+  
+
   return (
     <header className="header">
-      {/* ============ header top ============ */}
-      {/* <div className="header__top">
-        <Container>
-          <Row>
-            <Col lg="6" md="6" sm="6">
-              <div className="header__top__left">
-                <span>Need Help?</span>
-                <span className="header__top__help">
-                  <i class="ri-phone-fill"></i> +1-202-555-0149
-                </span>
-              </div>
-            </Col>
-
-            <Col lg="6" md="6" sm="6">
-              <div className="header__top__right d-flex align-items-center justify-content-end gap-3">
-                <Link to="#" className=" d-flex align-items-center gap-1">
-                  <i class="ri-login-circle-line"></i> Login
-                </Link>
-
-                <Link to="#" className=" d-flex align-items-center gap-1">
-                  <i class="ri-user-line"></i> Register
-                </Link>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </div> */}
-
+      
       {/* =============== header middle =========== */}
       <div className="header__middle">
         <Container>
@@ -112,7 +105,7 @@ const Header = () => {
               className=" d-flex align-items-center justify-content-end "
             >
               <button className="header__btn btn ">
-                <Link to="/contact">
+                <Link to="/login">
                   <i class="ri-user-line"></i> Log In
                 </Link>
               </button>
@@ -148,12 +141,17 @@ const Header = () => {
 
             <div className="nav__right">
               <div className="search__box">
-                <input type="text" placeholder="Search" />
-                <span>
-                  <i class="ri-search-line"></i>
+                <input
+                  type="text"
+                  placeholder="Search"
+                  value={searchValue}
+                  onChange={(e) => setSearchValue(e.target.value)}
+                />
+                <span onClick={handleSearch}>
+                  <i className="ri-search-line"></i>
                 </span>
               </div>
-            </div>
+            </div>  
           </div>
         </Container>
       </div>

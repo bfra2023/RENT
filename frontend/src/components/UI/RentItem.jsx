@@ -5,7 +5,7 @@ import "../../styles/rent-item.css";
 
 const RentItem = (props) => {
 
-  const { imgUrl, model, rentName, automatic, speed, price } = props.item;
+  const { imgUrl, model, rentName, size, wifi, price } = props.item;
 
  
 
@@ -26,13 +26,13 @@ const RentItem = (props) => {
 
           <div className="rent__item-info d-flex align-items-center justify-content-between mt-3 mb-4">
             <span className=" d-flex align-items-center gap-1">
-              <i class="ri-car-line"></i> {model}
+              <i class="ri-home-smile-line"></i> {model}
             </span>
             <span className=" d-flex align-items-center gap-1">
-              <i class="ri-settings-2-line"></i> {automatic}
+              <i class="ri-drag-move-line"></i> {size}
             </span>
             <span className=" d-flex align-items-center gap-1">
-              <i class="ri-timer-flash-line"></i> {speed}
+              <i class="ri-wifi-line"></i> {wifi}
             </span>
           </div>
 
